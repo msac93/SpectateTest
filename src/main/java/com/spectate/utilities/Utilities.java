@@ -1,0 +1,30 @@
+package com.spectate.utilities;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
+
+//import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
+import com.google.common.io.Files;
+import com.spectate.base.BasePage;
+
+public class Utilities extends BasePage{
+	public static String screenshotPath;
+	public static String screenshotName;
+
+	public static void captureScreenshot() throws IOException {
+
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+		Date d = new Date();
+		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
+		screenshotPath = System.getProperty("user.dir") + "\\target\\Screenshot\\" + screenshotName;
+		Files.copy(scrFile, new File(screenshotPath));
+
+	}
+
+	
+}

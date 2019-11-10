@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test 1"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.768">
+  <properties />
+  
+  
+            <testcase name="verifySearchText" time="2.768" classname="com.spectate.testcases.VerifySearchResultText" />
+      
+</testsuite>

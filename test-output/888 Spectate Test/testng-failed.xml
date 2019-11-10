@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [888 Spectate Test]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.spectate.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test 3(failed)">
+    <classes>
+      <class name="com.spectate.testcases.VerifyOptionExists">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyImageTitleText"/>
+          <include name="refreshBrowser"/>
+        </methods>
+      </class> <!-- com.spectate.testcases.VerifyOptionExists -->
+    </classes>
+  </test> <!-- Test 3(failed) -->
+</suite> <!-- Failed suite [888 Spectate Test] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="888 Spectate Test">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+		<listener class-name="com.spectate.listeners.CustomListeners"></listener>
+	</listeners>
+ 
+  <test name="Test 1">
+    <classes>
+      <class name="com.spectate.testcases.VerifySearchResultText"/>
+    </classes>
+  </test>
+  <test name="Test 2">
+    <classes>
+      <class name="com.spectate.testcases.VerifySearchResultImageTitleText"/>
+    </classes>
+  </test>  
+  <test name="Test 3">
+    <classes>
+      <class name="com.spectate.testcases.VerifyOptionExists"/>
+    </classes>
+  </test>	<!-- Test -->
+</suite> <!-- Suite -->
