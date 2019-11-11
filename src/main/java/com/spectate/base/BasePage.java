@@ -18,6 +18,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
+import com.spectate.utilities.ExcelUtility;
 import com.spectate.utilities.Utilities;
 
 import org.testng.Reporter;
@@ -27,6 +28,7 @@ public class BasePage {
 	public static WebDriverWait wait;
 	public static Properties config = new Properties(), or = new Properties();
 	public static FileInputStream fis_config, fis_or;
+	public static ExcelUtility excel = new ExcelUtility(System.getProperty("user.dir") + "\\src\\test\\resources\\testData\\testdata.xlsx");
 	
 	
 	public BasePage() {

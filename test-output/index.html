@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-888_Spectate_Test">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-888_Spectate_Test" title="com.spectate.testcases.VerifyOptionExists" class="method navigator-link" hash-for-method="verifyImageTitleText">verifyImageTitleText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-888_Spectate_Test" title="com.spectate.testcases.VerifyOptionExists" class="method navigator-link" hash-for-method="verifyMapOptionsExists({OptionName=Flat Earth View, SearchQuery=Google Maps})">verifyMapOptionsExists({OptionName=Flat Earth View, SearchQuery=Google Maps})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-888_Spectate_Test -->
@@ -116,12 +116,12 @@
                     <div class="method-list-content passed suite-888_Spectate_Test">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-888_Spectate_Test" title="com.spectate.testcases.VerifySearchResultImageTitleText" class="method navigator-link" hash-for-method="verifyImageTitleText">verifyImageTitleText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-888_Spectate_Test" title="com.spectate.testcases.VerifySearchResultImageTitleText" class="method navigator-link" hash-for-method="verifyImageTitleText({SearchQuery=dealey plaza})">verifyImageTitleText({SearchQuery=dealey plaza})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-888_Spectate_Test" title="com.spectate.testcases.VerifySearchResultText" class="method navigator-link" hash-for-method="verifySearchText">verifySearchText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-888_Spectate_Test" title="com.spectate.testcases.VerifySearchResultText" class="method navigator-link" hash-for-method="verifySearchText({SearchQuery=chemtrail})">verifySearchText({SearchQuery=chemtrail})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-888_Spectate_Test -->
@@ -144,11 +144,12 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyImageTitleText">
-                  </a> <!-- verifyImageTitleText -->
-                  <span class="method-name">verifyImageTitleText</span>
+                  <a name="verifyMapOptionsExists({OptionName=Flat Earth View, SearchQuery=Google Maps})">
+                  </a> <!-- verifyMapOptionsExists({OptionName=Flat Earth View, SearchQuery=Google Maps}) -->
+                  <span class="method-name">verifyMapOptionsExists</span>
+                  <span class="parameters">({OptionName=Flat Earth View, SearchQuery=Google Maps})</span>
                   <div class="stack-trace">java.lang.AssertionError: Verification Failed: The link &apos;Flat Earth View&apos; does not exist in the options expected [true] but found [false]
-	at com.spectate.testcases.VerifyOptionExists.verifyImageTitleText(VerifyOptionExists.java:19)
+	at com.spectate.testcases.VerifyOptionExists.verifyMapOptionsExists(VerifyOptionExists.java:22)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -158,14 +159,15 @@
           <div class="suite-888_Spectate_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.spectate.testcases.VerifySearchResultText</span>
+              <span class="class-name">com.spectate.testcases.VerifySearchResultImageTitleText</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySearchText">
-                  </a> <!-- verifySearchText -->
-                  <span class="method-name">verifySearchText</span>
+                  <a name="verifyImageTitleText({SearchQuery=dealey plaza})">
+                  </a> <!-- verifyImageTitleText({SearchQuery=dealey plaza}) -->
+                  <span class="method-name">verifyImageTitleText</span>
+                  <span class="parameters">({SearchQuery=dealey plaza})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,14 +175,15 @@
           <div class="suite-888_Spectate_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.spectate.testcases.VerifySearchResultImageTitleText</span>
+              <span class="class-name">com.spectate.testcases.VerifySearchResultText</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyImageTitleText">
-                  </a> <!-- verifyImageTitleText -->
-                  <span class="method-name">verifyImageTitleText</span>
+                  <a name="verifySearchText({SearchQuery=chemtrail})">
+                  </a> <!-- verifySearchText({SearchQuery=chemtrail}) -->
+                  <span class="method-name">verifySearchText</span>
+                  <span class="parameters">({SearchQuery=chemtrail})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -260,22 +263,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyImageTitleText')
+data.setCell(0, 1, 'verifyMapOptionsExists')
 data.setCell(0, 2, 'com.spectate.testcases.VerifyOptionExists')
-data.setCell(0, 3, 7096);
+data.setCell(0, 3, 6573);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyImageTitleText')
 data.setCell(1, 2, 'com.spectate.testcases.VerifySearchResultImageTitleText')
-data.setCell(1, 3, 7044);
+data.setCell(1, 3, 4410);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifySearchText')
 data.setCell(2, 2, 'com.spectate.testcases.VerifySearchResultText')
-data.setCell(2, 3, 2768);
+data.setCell(2, 3, 1276);
 window.suiteTableData['888_Spectate_Test']= { tableData: data, tableDiv: 'times-div-888_Spectate_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-888_Spectate_Test">
               </div> <!-- times-div-888_Spectate_Test -->
             </div> <!-- times-div -->
@@ -287,44 +290,44 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifySearchText</span>
+              <span class="reporter-method-name">verifySearchText({SearchQuery=chemtrail})</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><br>Typing in : input_searchBox_XPATH entered value as chemtrail<br></span>
                 <span class="reporter-method-output"><br>Typing in : input_searchBox_XPATH entered value as <br></span>
                 <span class="reporter-method-output"><br>Verification Failed: The Actual Value chemtrail conspiracy theory - wikipedia does not match with the Expected value chemtrail<br></span>
-                <span class="reporter-method-output"><a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_08_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_08_GMT_2019.jpg height=200 width=300></img></a></span>
+                <span class="reporter-method-output"><a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_13_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_13_GMT_2019.jpg height=200 width=300></img></a></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output">VERIFYSEARCHTEXT PASS</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyImageTitleText</span>
+              <span class="reporter-method-name">verifyImageTitleText({SearchQuery=dealey plaza})</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><br>Typing in : input_searchBox_XPATH entered value as dealey plaza<br></span>
                 <span class="reporter-method-output"><br>Typing in : input_searchBox_XPATH entered value as <br></span>
                 <span class="reporter-method-output"><br>Clicking on : link_images_XPATH<br></span>
                 <span class="reporter-method-output"><br>Verification Failed: The Actual Value dealey plaza - wikipedia
 en.wikipedia.org does not match with the Expected value dealey plaza<br></span>
-                <span class="reporter-method-output"><a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_16_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_16_GMT_2019.jpg height=200 width=300></img></a></span>
+                <span class="reporter-method-output"><a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_17_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_17_GMT_2019.jpg height=200 width=300></img></a></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output">VERIFYIMAGETITLETEXT PASS</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyImageTitleText</span>
+              <span class="reporter-method-name">verifyMapOptionsExists({OptionName=Flat Earth View, SearchQuery=Google Maps})</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><br>Typing in : input_searchBox_XPATH entered value as Google Maps<br></span>
                 <span class="reporter-method-output"><br>Typing in : input_searchBox_XPATH entered value as <br></span>
                 <span class="reporter-method-output"><br>Clicking on : link_googleMap_XPATH<br></span>
                 <span class="reporter-method-output"><br>Typing in : button_options_XPATH entered value as <br></span>
-                <span class="reporter-method-output">VERIFYIMAGETITLETEXT FAIL</span>
+                <span class="reporter-method-output">VERIFYMAPOPTIONSEXISTS FAIL</span>
                 <span class="reporter-method-output">Click to see Screenshot</span>
-                <span class="reporter-method-output"><a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg>Screenshot</a></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg height=200 width=200></img></a></span>
+                <span class="reporter-method-output"><a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg height=200 width=200></img></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -352,39 +355,39 @@ en.wikipedia.org does not match with the Expected value dealey plaza<br></span>
               <div class="chronological-class-name">com.spectate.testcases.VerifySearchResultText</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">refreshBrowser</span>
-                <span class="method-start">2554 ms</span>
+                <span class="method-start">1741 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifySearchText</span>
-                <span class="method-start">3037 ms</span>
+                <span class="method-name">verifySearchText({SearchQuery=chemtrail})</span>
+                <span class="method-start">1994 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spectate.testcases.VerifySearchResultImageTitleText</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">refreshBrowser</span>
-                <span class="method-start">5878 ms</span>
+                <span class="method-start">3295 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifyImageTitleText</span>
-                <span class="method-start">6270 ms</span>
+                <span class="method-name">verifyImageTitleText({SearchQuery=dealey plaza})</span>
+                <span class="method-start">3501 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.spectate.testcases.VerifyOptionExists</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">refreshBrowser</span>
-                <span class="method-start">13339 ms</span>
+                <span class="method-start">7928 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifyImageTitleText</span>
-                <span class="method-start">13748 ms</span>
+                <span class="method-name">verifyMapOptionsExists({OptionName=Flat Earth View, SearchQuery=Google Maps})</span>
+                <span class="method-start">8162 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21873 ms</span>
+                <span class="method-start">15310 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

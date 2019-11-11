@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.044">
+           time="4.410">
   <properties />
   
   
-            <testcase name="verifyImageTitleText" time="7.044" classname="com.spectate.testcases.VerifySearchResultImageTitleText" />
+            <testcase name="verifyImageTitleText" time="4.410" classname="com.spectate.testcases.VerifySearchResultImageTitleText" />
       
 </testsuite>

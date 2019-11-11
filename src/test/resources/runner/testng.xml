@@ -11,7 +11,7 @@
     <classes>
       <class name="com.spectate.testcases.VerifySearchResultText"/>
     </classes>
-  </test>
+  </test> 
   <test name="Test 2">
     <classes>
       <class name="com.spectate.testcases.VerifySearchResultImageTitleText"/>
@@ -21,5 +21,5 @@
     <classes>
       <class name="com.spectate.testcases.VerifyOptionExists"/>
     </classes>
-  </test>	<!-- Test -->
+  </test>	<!--Test -->
 </suite> <!-- Suite -->

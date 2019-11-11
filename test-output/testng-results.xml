@@ -11,7 +11,7 @@
       <![CDATA[<br>Verification Failed: The Actual Value chemtrail conspiracy theory - wikipedia does not match with the Expected value chemtrail<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_08_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_08_GMT_2019.jpg height=200 width=300></img></a>]]>
+      <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_13_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_13_GMT_2019.jpg height=200 width=300></img></a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -36,7 +36,7 @@
 en.wikipedia.org does not match with the Expected value dealey plaza<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_16_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_16_GMT_2019.jpg height=200 width=300></img></a>]]>
+      <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_17_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_17_GMT_2019.jpg height=200 width=300></img></a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -60,13 +60,13 @@ en.wikipedia.org does not match with the Expected value dealey plaza<br>]]>
       <![CDATA[<br>Typing in : button_options_XPATH entered value as <br>]]>
     </line>
     <line>
-      <![CDATA[VERIFYIMAGETITLETEXT FAIL]]>
+      <![CDATA[VERIFYMAPOPTIONSEXISTS FAIL]]>
     </line>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -75,19 +75,26 @@ en.wikipedia.org does not match with the Expected value dealey plaza<br>]]>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg height=200 width=200></img></a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-11-10T22:55:05Z" name="888 Spectate Test" finished-at="2019-11-10T22:55:24Z" duration-ms="19264">
+  <suite started-at="2019-11-11T00:51:11Z" name="888 Spectate Test" finished-at="2019-11-11T00:51:25Z" duration-ms="13551">
     <groups>
     </groups>
-    <test started-at="2019-11-10T22:55:05Z" name="Test 1" finished-at="2019-11-10T22:55:08Z" duration-ms="3261">
+    <test started-at="2019-11-11T00:51:11Z" name="Test 1" finished-at="2019-11-11T00:51:13Z" duration-ms="1532">
       <class name="com.spectate.testcases.VerifySearchResultText">
-        <test-method is-config="true" signature="refreshBrowser()[pri:0, instance:com.spectate.testcases.VerifySearchResultText@2f7a7219]" started-at="2019-11-10T22:55:05Z" name="refreshBrowser" finished-at="2019-11-10T22:55:06Z" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="refreshBrowser()[pri:0, instance:com.spectate.testcases.VerifySearchResultText@aed0151]" started-at="2019-11-11T00:51:11Z" name="refreshBrowser" finished-at="2019-11-11T00:51:11Z" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshBrowser -->
-        <test-method signature="verifySearchText()[pri:0, instance:com.spectate.testcases.VerifySearchResultText@2f7a7219]" started-at="2019-11-10T22:55:06Z" name="verifySearchText" finished-at="2019-11-10T22:55:08Z" duration-ms="2768" status="PASS">
+        <test-method signature="verifySearchText(java.util.Hashtable)[pri:0, instance:com.spectate.testcases.VerifySearchResultText@aed0151]" started-at="2019-11-11T00:51:11Z" name="verifySearchText" data-provider="dp" finished-at="2019-11-11T00:51:13Z" duration-ms="1276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchQuery=chemtrail}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[<br>Typing in : input_searchBox_XPATH entered value as chemtrail<br>]]>
@@ -99,7 +106,7 @@ en.wikipedia.org does not match with the Expected value dealey plaza<br>]]>
               <![CDATA[<br>Verification Failed: The Actual Value chemtrail conspiracy theory - wikipedia does not match with the Expected value chemtrail<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_08_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_08_GMT_2019.jpg height=200 width=300></img></a>]]>
+              <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_13_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_13_GMT_2019.jpg height=200 width=300></img></a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -114,13 +121,20 @@ en.wikipedia.org does not match with the Expected value dealey plaza<br>]]>
         </test-method> <!-- verifySearchText -->
       </class> <!-- com.spectate.testcases.VerifySearchResultText -->
     </test> <!-- Test 1 -->
-    <test started-at="2019-11-10T22:55:08Z" name="Test 2" finished-at="2019-11-10T22:55:16Z" duration-ms="7441">
+    <test started-at="2019-11-11T00:51:13Z" name="Test 2" finished-at="2019-11-11T00:51:17Z" duration-ms="4618">
       <class name="com.spectate.testcases.VerifySearchResultImageTitleText">
-        <test-method is-config="true" signature="refreshBrowser()[pri:0, instance:com.spectate.testcases.VerifySearchResultImageTitleText@ec0c838]" started-at="2019-11-10T22:55:08Z" name="refreshBrowser" finished-at="2019-11-10T22:55:09Z" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="refreshBrowser()[pri:0, instance:com.spectate.testcases.VerifySearchResultImageTitleText@2bc12da]" started-at="2019-11-11T00:51:13Z" name="refreshBrowser" finished-at="2019-11-11T00:51:13Z" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshBrowser -->
-        <test-method signature="verifyImageTitleText()[pri:0, instance:com.spectate.testcases.VerifySearchResultImageTitleText@ec0c838]" started-at="2019-11-10T22:55:09Z" name="verifyImageTitleText" finished-at="2019-11-10T22:55:16Z" duration-ms="7044" status="PASS">
+        <test-method signature="verifyImageTitleText(java.util.Hashtable)[pri:0, instance:com.spectate.testcases.VerifySearchResultImageTitleText@2bc12da]" started-at="2019-11-11T00:51:13Z" name="verifyImageTitleText" data-provider="dp" finished-at="2019-11-11T00:51:17Z" duration-ms="4410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchQuery=dealey plaza}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[<br>Typing in : input_searchBox_XPATH entered value as dealey plaza<br>]]>
@@ -136,7 +150,7 @@ en.wikipedia.org does not match with the Expected value dealey plaza<br>]]>
 en.wikipedia.org does not match with the Expected value dealey plaza<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_16_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_16_GMT_2019.jpg height=200 width=300></img></a>]]>
+              <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_17_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_17_GMT_2019.jpg height=200 width=300></img></a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -151,17 +165,24 @@ en.wikipedia.org does not match with the Expected value dealey plaza<br>]]>
         </test-method> <!-- verifyImageTitleText -->
       </class> <!-- com.spectate.testcases.VerifySearchResultImageTitleText -->
     </test> <!-- Test 2 -->
-    <test started-at="2019-11-10T22:55:16Z" name="Test 3" finished-at="2019-11-10T22:55:24Z" duration-ms="8475">
+    <test started-at="2019-11-11T00:51:17Z" name="Test 3" finished-at="2019-11-11T00:51:25Z" duration-ms="7364">
       <class name="com.spectate.testcases.VerifyOptionExists">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spectate.testcases.VerifyOptionExists@55f3c410]" started-at="2019-11-10T22:55:03Z" name="setUp" finished-at="2019-11-10T22:55:05Z" duration-ms="2548" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spectate.testcases.VerifyOptionExists@3068b369]" started-at="2019-11-11T00:51:09Z" name="setUp" finished-at="2019-11-11T00:51:11Z" duration-ms="1740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="refreshBrowser()[pri:0, instance:com.spectate.testcases.VerifyOptionExists@55f3c410]" started-at="2019-11-10T22:55:16Z" name="refreshBrowser" finished-at="2019-11-10T22:55:16Z" duration-ms="408" status="PASS">
+        <test-method is-config="true" signature="refreshBrowser()[pri:0, instance:com.spectate.testcases.VerifyOptionExists@3068b369]" started-at="2019-11-11T00:51:17Z" name="refreshBrowser" finished-at="2019-11-11T00:51:18Z" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshBrowser -->
-        <test-method signature="verifyImageTitleText()[pri:0, instance:com.spectate.testcases.VerifyOptionExists@55f3c410]" started-at="2019-11-10T22:55:16Z" name="verifyImageTitleText" finished-at="2019-11-10T22:55:23Z" duration-ms="7096" status="FAIL">
+        <test-method signature="verifyMapOptionsExists(java.util.Hashtable)[pri:0, instance:com.spectate.testcases.VerifyOptionExists@3068b369]" started-at="2019-11-11T00:51:18Z" name="verifyMapOptionsExists" data-provider="dp" finished-at="2019-11-11T00:51:24Z" duration-ms="6573" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OptionName=Flat Earth View, SearchQuery=Google Maps}]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Verification Failed: The link 'Flat Earth View' does not exist in the options expected [true] but found [false]]]>
@@ -173,7 +194,7 @@ at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
-at com.spectate.testcases.VerifyOptionExists.verifyImageTitleText(VerifyOptionExists.java:19)
+at com.spectate.testcases.VerifyOptionExists.verifyMapOptionsExists(VerifyOptionExists.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -216,13 +237,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[<br>Typing in : button_options_XPATH entered value as <br>]]>
             </line>
             <line>
-              <![CDATA[VERIFYIMAGETITLETEXT FAIL]]>
+              <![CDATA[VERIFYMAPOPTIONSEXISTS FAIL]]>
             </line>
             <line>
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -231,11 +252,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Sun_Nov_10_22_55_24_GMT_2019.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg><img src=D:\Jva\888Spectate\target\Screenshot\Mon_Nov_11_00_51_25_GMT_2019.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyImageTitleText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spectate.testcases.VerifyOptionExists@55f3c410]" started-at="2019-11-10T22:55:24Z" name="tearDown" finished-at="2019-11-10T22:55:25Z" duration-ms="756" status="PASS">
+        </test-method> <!-- verifyMapOptionsExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spectate.testcases.VerifyOptionExists@3068b369]" started-at="2019-11-11T00:51:25Z" name="tearDown" finished-at="2019-11-11T00:51:25Z" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -12,8 +12,8 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyImageTitleText"/>
           <include name="refreshBrowser"/>
+          <include name="verifyMapOptionsExists" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.spectate.testcases.VerifyOptionExists -->
     </classes>

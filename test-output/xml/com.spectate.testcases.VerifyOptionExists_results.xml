@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="7.096">
+           time="6.573">
   <properties />
-            <testcase name="verifyImageTitleText" time="7.096" classname="com.spectate.testcases.VerifyOptionExists">
+            <testcase name="verifyMapOptionsExists" time="6.573" classname="com.spectate.testcases.VerifyOptionExists">
                 <failure type="java.lang.AssertionError"
                   message="Verification Failed: The link &apos;Flat Earth View&apos; does not exist in the options expected [true] but found [false]"
               >
@@ -16,7 +16,7 @@
   org.testng.Assert.assertEqualsImpl(Assert.java:137)
   org.testng.Assert.assertEquals(Assert.java:118)
   org.testng.Assert.assertEquals(Assert.java:568)
-  com.spectate.testcases.VerifyOptionExists.verifyImageTitleText(VerifyOptionExists.java:19)
+  com.spectate.testcases.VerifyOptionExists.verifyMapOptionsExists(VerifyOptionExists.java:22)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
